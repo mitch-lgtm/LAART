@@ -1,3 +1,18 @@
+<head>
+  <meta charset="utf-8">
+  <title>Open Email</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // Try to open mailto immediately
+    const mailLink = "mailto:Mayor.Helpdesk@lacity.org;kathryn@bos.lacounty.gov;jbutts@cityofinglewood.org;jdupontw@aol.com;fdutra@cityofwhittier.org;FourthDistrict@bos.lacounty.gov;ThirdDistrict@bos.lacounty.gov;HollyJMitchell@bos.lacounty.gov;anajarian@glendaleca.gov;councilmember.padilla@lacity.org;tim.sandoval@pomonaca.gov;firstdistrict@bos.lacounty.gov;councilmember.yaroslavsky@lacity.org?cc=LAART@metro.net;hello@laart.la;randall.winston@lacity.org;tina.backstrom@lacity.org;dperry@bos.lacounty.gov;mbohlke@sbcglobal.net;amartinez@gatewaycog.org;vgomez@bos.lacounty.gov;bfish@bos.lacounty.gov;jorenstein@bos.lacounty.gov;AYoon@bos.lacounty.gov;emartinez@bos.lacounty.gov;vrescalvo@gmail.com;lamont.cobb@lacity.org;Bfeldman@sgvcog.org;WRehman@bos.lacounty.gov;jarrett.thompson@lacity.org&subject=Support%20for%20LA%20ART%20Gondola&body=Dear%20Los%20Angeles%20Metro%20Board%2C%0A%0AI%20am%20writing%20to%20express%20my%20strong%20support%20for%20the%20LA%20ART%20gondola%20project.%20Los%20Angeles%20cannot%20afford%20to%20delay%20bold%20solutions%20to%20our%20traffic%2C%20air%20quality%2C%20and%20climate%20challenges.%20Dodger%20Stadium%20has%20some%20of%20the%20worst%20traffic%20in%20Los%20Angeles%2C%20and%20urgently%20needs%20a%20permanent%20transit%20connection.%0A%0AThe%20gondola%20would%20provide%20that%20transit%20connection%20to%20Dodger%20Stadium%2C%20giving%20fans%20a%20fast%2C%20car-free%20option%20while%20easing%20congestion%20and%20cutting%20emissions%20for%20neighbors.%20It%20will%20also%20boost%20tourism%2C%20create%20jobs%2C%20and%20inspire%20people%20to%20ride%20transit%20again.%0A%0AThe%20Metro%20Board%20has%20already%20approved%20this%20project%20once%2C%20and%20now%20is%20the%20time%20to%20reaffirm%20that%20commitment.%20%20Please%20approve%20the%20supplemental%20EIR%20and%20move%20this%20project%20forward%20without%20delay.%0A%0ASincerely%2C%0A";
+
+    window.onload = () => {
+      // Try immediately, then retry after 1s
+      window.location.href = mailLink;
+      setTimeout(() => window.location.href = mailLink, 1000);
+    };
+  </script>
+</head>
 <!DOCTYPE html>
 <html lang="en">
 <head>
